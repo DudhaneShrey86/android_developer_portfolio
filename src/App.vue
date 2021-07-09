@@ -234,8 +234,9 @@ p{
 }
 #mobile-footer{
   display: none;
-  position: relative;
-  bottom: -25px;
+  margin: 30px 0 20px 0;
+  /* position: relative;
+  bottom: -25px; */
   grid-gap: 5px;
   justify-content: center;
 }
@@ -329,7 +330,6 @@ p{
   }
   #content-box{
     padding: 0 30px;
-    padding-bottom: 40px;
     box-sizing: border-box;
     background: var(--black);
   }
