@@ -6,7 +6,7 @@
     <p class="tagp">
       <span v-for="tag in tags" class="tag">{{ tag }}</span>
     </p>
-    <p class="colored-text margin-top-twenty"><a :href="link" target="_blank" class="expand-links"><span>View on Github</span> <i class="fas fa-arrow-right"></i></a></p>
+    <p class="colored-text margin-top-twenty"><a :href="link" target="_blank" class="expand-links"><span>{{ link_name }}</span> <i class="fas fa-arrow-right"></i></a></p>
     <p class="right"><i class="fas fa-star"></i> <span>{{ stars }}</span> </p>
   </div>
 </template>
@@ -14,7 +14,7 @@
 <script>
 export default {
   name: 'ProjectCard',
-  props: [ 'title', 'description', 'tags', 'link', 'stars' ],
+  props: [ 'title', 'description', 'tags', 'link', 'stars', 'link_name'],
 
 }
 </script>

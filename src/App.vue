@@ -2,7 +2,7 @@
   <div class="container">
     <main id="main-div">
       <div id="nav-div">
-        <h1>Hello, I'm Siddhesh Hadkar</h1>
+        <h1>Hello, I'm Shaun</h1>
         <div class="margin-top-big">
           <p>I am an <span class="colored-text">Android Developer</span> and currently an engineering student.
             I like to develop <span class="colored-text">minimal and efficient apps.</span>
