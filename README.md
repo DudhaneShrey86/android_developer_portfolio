@@ -1,4 +1,5 @@
-# hadkars_portfolio
+# Android Developer Portfolio
+#### A plain simple mint-themed android developer portfolio developed in Vue.js 
 
 ## Project setup
 ```
